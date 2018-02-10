@@ -1,0 +1,26 @@
+/* Formatting for Home page */
+
+.nav p {
+    color: black;
+    font-family: Helvetica;
+    font-size: 160%;
+    font-weight: lighter;
+    padding-left : 60px;
+    padding-right : 90px;
+    display: inline;
+}
+.nav a {
+    color: black;
+    font-family: Helvetica;
+    font-size: 125%;
+    font-weight: lighter;
+    padding-left : 60px;
+    padding-right : 60px;
+    display: inline;
+  }
+
+  .nav li {
+    position: relative;
+    top: 10px;
+    display: inline;
+  }
