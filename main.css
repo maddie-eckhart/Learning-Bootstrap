@@ -1,4 +1,4 @@
-/* Large desktops and laptops */
+/* Large desktops and laptops 
 @media (min-width: 1200px) {
     .nav p {
         color:green !important;
@@ -11,8 +11,9 @@
     .statement {
         font-size: 4em !important;
     }
-}
 
+}
+*/
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
     .nav p {
@@ -36,6 +37,7 @@
     }
     .statement {
         font-size: 2em !important;
+        margin-top: 25% !important;
     }
 }
 
@@ -249,5 +251,17 @@
     text-align: left;
 }
 
-/* Formatting for Involement screen */
+/* Formatting for Involement screen 
 
+.involve {
+    background-image: url("computerplant.jpg");
+    height: 200vh;
+    width: 100vw;
+    padding-top: 16%;
+    text-align: center;
+}
+
+.roar {
+    padding-bottom: 10%;
+    background-color: rgba(25, 255,255, 1);
+}*/
