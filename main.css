@@ -69,12 +69,14 @@
     background: white;
     height: 100vh;
     width: 100vw;
+    left: 0;
+    z-index: .05;
 }
 .background-gradient {
     position: relative;
-    top: 8em;
+    top: 10em;
     width: 90%;
-    height: 65%;
+    height: 23em;
     background-image:
     linear-gradient(
       to right, 
@@ -95,5 +97,10 @@
 }
 
 .profile-desc {
-    
+    color: black;
+    font-family: Arial;
+    font-size: 140%;
+    font-weight: lighter;
+    text-align: left;
+    display: inline-block;
 }
