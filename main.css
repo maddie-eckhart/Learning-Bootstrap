@@ -142,28 +142,43 @@
 }
 
 .proj1 {
-    background: palegreen;
-    height: 60%;
+    height: 80%;
 }
 .proj1-logo {
-    background: red;
-   text-align: right;
+    padding-top: 16%;
+    background: white;
+    text-align: right;
 }
-.Score {
-    right: 0;
-}
+
 .proj1-text {
-    background: purple;
+    background: white;
+    text-align: right;
+}
+
+.desc1 {
+    position: relative;
+    top: -8em;
+    color: black;
+    font-family: Arial;
+    font-size: 120%;
+    font-weight: lighter;
+    text-align: left;
 }
 
 .proj2 {
-    background: lightblue;
+    padding-top: 2%;
+    background: white;
     height: 40%;
 }
 .proj2-logo {
-    background: palevioletred;
+    background: white;
+    text-align: right;
 }
 
 .proj2-text {
-    background: yellowgreen;
+    color: black;
+    font-family: Arial;
+    font-size: 120%;
+    font-weight: lighter;
+    text-align: left;
 }
