@@ -74,9 +74,9 @@
 }
 .background-gradient {
     position: relative;
-    top: 10em;
-    width: 90%;
-    height: 23em;
+    top: 8em;
+    width: 90vw;
+    height: 52.67vh;
     background-image:
     linear-gradient(
       to right, 
@@ -92,6 +92,7 @@
 
 .profile-pic {
     position: relative;
+    width: 55.6vh;
     top: 2.5em;
     left: 8em;
 }
@@ -102,5 +103,12 @@
     font-size: 140%;
     font-weight: lighter;
     text-align: left;
-    display: inline-block;
+    position: relative;
+    top: 2.5em;
+}
+
+.socials {
+    position: relative;
+    bottom: -11em;
+    left: 11em;
 }
