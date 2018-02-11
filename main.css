@@ -138,4 +138,32 @@
     padding-top: 2%;
     text-align: right;
     z-index: 0;
+    background: orange;
+}
+
+.proj1 {
+    background: palegreen;
+    height: 60%;
+}
+.proj1-logo {
+    background: red;
+   text-align: right;
+}
+.Score {
+    right: 0;
+}
+.proj1-text {
+    background: purple;
+}
+
+.proj2 {
+    background: lightblue;
+    height: 40%;
+}
+.proj2-logo {
+    background: palevioletred;
+}
+
+.proj2-text {
+    background: yellowgreen;
 }
