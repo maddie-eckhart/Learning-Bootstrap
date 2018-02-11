@@ -1,114 +1,68 @@
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    .nav p {
+        color:green !important;
+        font-size: 200% !important;
+        padding-right : 1.5em !important;
     }
-    
-    /* Smartphones (landscape) ----------- */
-    @media only screen and (min-width : 321px) {
-    /* Styles */
+    .nav a {
+        font-size: 150% !important;
     }
-    
-    /* Smartphones (portrait) ----------- */
-    @media only screen and (max-width : 320px) {
-    /* Styles */
+    .statement {
+        font-size: 4em !important;
     }
-    
-    /* iPads (portrait and landscape) ----------- */
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    /* Styles */
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .nav p {
+        color:red !important;
+        padding-right : 0em !important;
+
     }
-    
-    /* iPads (landscape) ----------- */
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-    /* Styles */
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav p {
+        color: palevioletred !important;
+        font-size: 125% !important;
+        padding-left: 1.5em !important;
+        padding-right : 0em !important;
     }
-    
-    /* iPads (portrait) ----------- */
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-    /* Styles */
+    .nav a {
+        font-size: 100% !important;
+        padding-right : 1.5em !important;
     }
-    /**********
-    iPad 3
-    **********/
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-    /* Styles */
+    .statement {
+        font-size: 2em !important;
     }
-    
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-    /* Styles */
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .nav p {
+        color: orange !important;
+        font-size: 110% !important;
+        padding-left: 1.5em !important;
+        padding-right : 0em !important;
     }
-    /* Desktops and laptops ----------- */
-    @media only screen  and (min-width : 1224px) {
-    /* Styles */
+    .nav a {
+        font-size: 90% !important;
+        padding-right : 0.5em !important;
     }
-    
-    /* Large screens ----------- */
-    @media only screen  and (min-width : 1824px) {
-    /* Styles */
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .nav p {
+        color:blue !important;
     }
-    
-    /* iPhone 4 ----------- */
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-    /* Styles */
+    .statement {
+        font-size: 2.5em !important;
+        margin-top: 30% !important;
     }
-    
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-    /* Styles */
-    }
-    
-    /* iPhone 5 ----------- */
-    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    /* iPhone 6 ----------- */
-    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    /* iPhone 6+ ----------- */
-    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    /* Samsung Galaxy S3 ----------- */
-    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    }
-    
-    /* Samsung Galaxy S4 ----------- */
-    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-    /* Styles */
-    }
-    
-    /* Samsung Galaxy S5 ----------- */
-    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-    /* Styles */
-    }
-    
-    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-    /* Styles */
-    }
+}
 
 /* Formatting for Nav Bar header*/
 
@@ -212,7 +166,7 @@
 .profile-pic {
     position: relative;
     width: 55.6vh;
-    top: 2.5em;
+    top: 2em;
     left: 8em;
 }
 
@@ -228,7 +182,7 @@
 
 .socials {
     position: relative;
-    bottom: -11em;
+    bottom: -12em;
     left: 10.5em;
 }
 
