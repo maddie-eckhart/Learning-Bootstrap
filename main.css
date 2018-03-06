@@ -251,17 +251,22 @@
     text-align: left;
 }
 
-/* Formatting for Involement screen */
+/* Formatting for Involement screen 
 
 .involve {
-    background-color: white; /*url("computerplant.jpg");*/
-    height: 50%;
-    width: 50%;
+    background-color:white;
+    height: 100%;
+    width: 100%;
     padding-top: 16%;
     text-align: center;
+    z-index: 10;
 }
-/*
+
 .roar {
-    padding-bottom: 10%;
-    background-color: rgba(25, 255,255, 1);
+    background-image: url("computerplant.jpg");
+    background-size: cover;
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    z-index: 400;
 }*/
